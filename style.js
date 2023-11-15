@@ -30,7 +30,6 @@ let bigfoto1 = setTimeout(function(){
     foto2.style.display='none';
     foto3.style.display='none';
     foto1.style.animation='none';
-    foto1.style.transition='2s';
     foto1.style.transform='translateX(600px)';
 
 },5800)
