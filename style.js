@@ -31,7 +31,7 @@ let bigfoto1 = setTimeout(function(){
     foto3.style.display='none';
     foto1.style.animation='none';
     foto1.style.transform='translateX(600px)';
-
+    foto1.style.height='500px';
 },5800)
 
 
