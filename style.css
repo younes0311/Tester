@@ -1,8 +1,8 @@
 #box div img{
     height:300px;
-animation: Fotos 8s ease;
+animation: Fotos 5s ease;
 display: none;
-transition: 2s;
+transition: 0.5s;
 }
 
 
