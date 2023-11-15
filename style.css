@@ -1,0 +1,53 @@
+#box div img{
+    height:300px;
+/*animation: Fotos 5s ease;*/
+/*display: none;*/
+transition: 1s;
+}
+
+
+@keyframes Fotos {
+    0%{transform: translateY(200px);}
+    20%{transform: translateY(0px);}
+}
+
+
+
+body{
+    height: 1700px;
+background:url(background.jpg);
+transition: 1s;
+}
+
+#box{
+    display: flex;
+justify-content: space-evenly;
+position: relative;
+top: 500px;
+background-color: blue;
+}
+
+
+#box div{
+  /*  background: red;*/
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: yellow;
+}
+
+#box div h1{
+    font-size: 50px;
+    color: white;
+  display: none;
+   animation: fonts 3s;
+  position: absolute;
+
+}
+
+@keyframes fonts{
+    0%{transform: translateY(100px);}
+    20%{transform: translateY(0px);}
+}
