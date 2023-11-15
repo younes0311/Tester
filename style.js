@@ -35,8 +35,8 @@ let bigfoto1 = setTimeout(function(){
 
 
 let zoom1 = setTimeout(function(){
-    foto1.style.height='500px';
-},6100)
+    foto1.style.height='900px';
+},6000)
 
 
 
